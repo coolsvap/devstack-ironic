@@ -1,3 +1,6 @@
+###IP Configuration
+HOST_IP=<<IP_ADDRESS>>
+
 #Credentials
 ADMIN_PASSWORD=<<password>>
 MYSQL_PASSWORD=<<password>>
@@ -5,12 +8,12 @@ RABBIT_PASSWORD=<<password>>
 SERVICE_PASSWORD=<<password>>
 SERVICE_TOKEN=<<password>>
 
+###Ironic
+enable_service ir-api
+enable_service ir-cond
+
 #Log Output
 LOGFILE=/opt/stack/logs/stack.sh.log
 VERBOSE=True
 LOG_COLOR=False
 SCREEN_LOGDIR=/opt/stack/logs
-
-###Ironic
-enable_service ir-api
-enable_service ir-cond
