@@ -12,6 +12,9 @@ SERVICE_TOKEN=<<password>>
 enable_service ir-api
 enable_service ir-cond
 
+####Tempest
+enable_service tempest
+
 #Log Output
 LOGFILE=/opt/stack/logs/stack.sh.log
 VERBOSE=True
